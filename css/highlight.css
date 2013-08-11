@@ -15,7 +15,8 @@ pre .tag .title,
 pre .lisp .title,
 pre .clojure .built_in,
 pre .nginx .title {
-  color: black;
+  display: block; padding: 0.5em;
+  background: #fdf6e3; color: #657b83;
 }
 
 pre .string,
@@ -45,7 +46,7 @@ pre .erlang_repl .function_or_atom,
 pre .asciidoc .header,
 pre .markdown .header,
 pre .coffeescript .attribute {
-  color: #800;
+  color: #b58900
 }
 
 pre .comment,
@@ -55,7 +56,8 @@ pre .diff .header,
 pre .chunk,
 pre .asciidoc .blockquote,
 pre .markdown .blockquote {
-  color: #888;
+  color: #93a1a1;
+  font-style: italic;
 }
 
 pre .number,
@@ -72,7 +74,7 @@ pre .asciidoc .bullet,
 pre .markdown .bullet,
 pre .asciidoc .link_url,
 pre .markdown .link_url {
-  color: #080;
+  color: #2aa198;
 }
 
 pre .label,
@@ -103,7 +105,7 @@ pre .clojure .attribute,
 pre .asciidoc .attribute,
 pre .lasso .attribute,
 pre .coffeescript .property {
-  color: #88F
+  color: #268bd2;
 }
 
 pre .keyword,
@@ -125,6 +127,7 @@ pre .asciidoc .strong,
 pre .markdown .strong,
 pre .request,
 pre .status {
+  color: #4b16;
   font-weight: bold;
 }
 
@@ -145,5 +148,6 @@ pre .xml .javascript,
 pre .xml .vbscript,
 pre .xml .css,
 pre .xml .cdata {
+  background: #eee8d5;
   opacity: 0.5;
 }
