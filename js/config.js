@@ -7,7 +7,7 @@ var GOOGLE_SCOPES = [
     "https://www.googleapis.com/auth/blogger",
     "https://picasaweb.google.com/data/"
 ];
-var GOOGLE_DRIVE_APP_ID = "241271498917";
+var GOOGLE_DRIVE_APP_ID = "806570364308";
 var DROPBOX_APP_KEY = "lq6mwopab8wskas";
 var DROPBOX_APP_SECRET = "851fgnucpezy84t";
 var BITLY_ACCESS_TOKEN = "317e033bfd48cf31155a68a536b1860013b09c4c";
