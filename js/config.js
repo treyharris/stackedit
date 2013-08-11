@@ -1,4 +1,4 @@
-var MAIN_URL = "http://benweet.github.io/stackedit/";
+var MAIN_URL = "http://treyharris.github.io/stackedit/";
 var GOOGLE_ANALYTICS_ACCOUNT_ID = "UA-39556145-1";
 var GOOGLE_API_KEY = "AIzaSyAeCU8CGcSkn0z9js6iocHuPBX4f_mMWkw";
 var GOOGLE_SCOPES = [
@@ -44,7 +44,7 @@ var GITHUB_CLIENT_ID = 'e47fef6055344579799d';
 var GATEKEEPER_URL = "http://stackedit-gatekeeper-localhost.herokuapp.com/";
 var TUMBLR_PROXY_URL = "http://stackedit-tumblr-proxy-local.herokuapp.com/";
 
-if(location.hostname.indexOf("benweet.github.io") === 0) {
+if(location.hostname.indexOf("treyharris.github.io") === 0) {
     BASE_URL = MAIN_URL;
     GOOGLE_CLIENT_ID = '241271498917-jpto9lls9fqnem1e4h6ppds9uob8rpvu.apps.googleusercontent.com';
     GITHUB_CLIENT_ID = 'fa0d09514da8377ee32e';
