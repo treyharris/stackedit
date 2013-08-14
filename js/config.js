@@ -39,7 +39,7 @@ function runDelayedFunction() {
 
 // Site dependent
 var BASE_URL = "http://localhost/stackedit/";
-var GOOGLE_CLIENT_ID = '806570364308.apps.googleusercontent.com';
+var GOOGLE_CLIENT_ID = '806570364308-2b8us9uome41kv3mj41p3hduakn8hd31.apps.googleusercontent.com';
 var GITHUB_CLIENT_ID = 'e47fef6055344579799d';
 var GATEKEEPER_URL = "http://stackedit-gatekeeper-localhost.herokuapp.com/";
 var TUMBLR_PROXY_URL = "http://stackedit-tumblr-proxy-local.herokuapp.com/";
